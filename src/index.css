@@ -241,13 +241,13 @@ padding: 1rem;
 
 .cart__item {
   /* border: 1px solid black; */
-   width: 96%; 
+   width: 90%; 
   display: flex;
   border-radius: 2.5rem;
   justify-content: center;
   /* align-items: center; */
   box-shadow: 3px 3px 15px -3px rgba(151, 147, 151, 0.61);
-  /* background-color: blueviolet; */
+  background-color: blueviolet;
 }
 
 .cart__image img

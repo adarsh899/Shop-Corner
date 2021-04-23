@@ -28,7 +28,7 @@ function Home() {
                 <img src="https://rukminim1.flixcart.com/flap/844/240/image/af0c1955b35a2438.jpg?q=50" />
 
             </div>
-            <Banner imageurl={image2} visible ="True"/>
+            <Banner imageurl={image2} visible = "false"/>
     </div>
     )
 }
