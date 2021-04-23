@@ -38,7 +38,7 @@ function Cart({cartItem,onAdd,onRemove}) {
                 
                 cartItem.map((item) => (
                     <div key={item.id} >
-                            {/* <div className="cart__item">
+                            <div className="cart__item">
                         <div className="cart__image my-4">
                             
                             <img src={item.imageurl}></img>
@@ -58,8 +58,8 @@ function Cart({cartItem,onAdd,onRemove}) {
                         </div>
                             </div>
                             
-                        </div> */}
-                        <div className="Des__Main">
+                        </div>
+                        {/* <div className="Des__Main">
             <div className="Des__Image my-4">
                 <img src ={item.imageurl} ></img>
             </div>
@@ -71,7 +71,7 @@ function Cart({cartItem,onAdd,onRemove}) {
                             <button className="minus__btn" onClick={() => onRemove(item)}>-</button>
                     
                 </div>
-                </div>
+                </div> */}
                         
                         </div>
                         

@@ -487,3 +487,12 @@ padding: 1rem;
 {
   color: mediumslateblue;
 }
+.Wishlist__pad
+{
+  justify-content: space-evenly;
+}
+.Wish__Img
+{
+  width: 2rem;
+  height: 4rem;
+}
