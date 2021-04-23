@@ -33,7 +33,7 @@ function WishList({ onUnwish, wishList }) {
                 
                 wishList.map((item) => (
                     <div key={item.id} className="Wish__list" >
-                            <div className="cart__item">
+                            {/* <div className="cart__item">
                         <div className="cart__image my-4">
                             
                             <img src={item.imageurl}></img>
@@ -52,7 +52,17 @@ function WishList({ onUnwish, wishList }) {
                                 
                             </div>
                             
-                        </div>
+                        </div> */}
+                        <div className="Des__Main">
+            <div className="Des__Image my-4">
+                <img src ={item.imageurl} ></img>
+            </div>
+            <div className="Des__Information">
+                <h2>{item.name}</h2>
+                                <h2>Price {item.price}</h2>
+                                <button className="Des__Remove" onClick={() => onUnwish(item)}>Remove</button>
+                </div>
+                </div>
                         
                         </div>
                         

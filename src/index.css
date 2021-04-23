@@ -224,6 +224,13 @@ h4
     top: 40px;
     
 }
+.Des__Remove
+{
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  width: 10rem;
+  text-align: center;
+}
 .Des__icon
 {
 padding: 1rem;
