@@ -41,23 +41,14 @@ function Cart({cartItem,onAdd,onRemove}) {
                             <div className="cart__item">
                         <div className="cart__image my-4">
                             
-                            <img src={item.imageurl}></img>
+                                <img src={item.imageurl}></img>
+                                <h4>{item.name}</h4>
+                                <button className="plus__btn" onClick={() => onAdd(item)}>+</button>
+                            <span className="cart_q">{item.qty}</span>
+                                <button className="minus__btn" onClick={() => onRemove(item)}>-</button>
+                                <h4>Rs{item.price*item.qty}</h4>
                             
-                        </div>
-                        
-                        <div className="cart__name my-4">
-                                    <h4>{item.name}</h4>
-                                    <div className="cart__quantity my-4">
-                            
-                            <button className="plus__btn" onClick={() => onAdd(item)}>+</button>
-                            <span>{item.qty}</span>
-                            <button className="minus__btn" onClick={() => onRemove(item)}>-</button>
-                                    </div>
-                                    <div className="cart__price my-4">
-                             Rs{item.price*item.qty}
-                        </div>
-                            </div>
-                            
+                        </div>            
                         </div>
                         
                         </div>
