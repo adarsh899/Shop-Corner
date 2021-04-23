@@ -34,7 +34,7 @@ function WishList({ onUnwish, wishList }) {
                 wishList.map((item) => (
                     <div key={item.id} className="Wish__list" >
                             <div className="cart__item">
-                        <div className="cart__image">
+                        <div className="cart__image my-4">
                             
                             <img src={item.imageurl}></img>
                             

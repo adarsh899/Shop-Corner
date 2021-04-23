@@ -241,12 +241,16 @@ padding: 1rem;
 
 .cart__item {
   /* border: 1px solid black; */
-   width: 90%; 
   display: flex;
+  height: 20rem;
+  /* margin-left: 6rem; */
+
+  /* margin-top: 4rem; */
+  margin: auto;
+
+  width: 25rem;
   border-radius: 2.5rem;
-  justify-content: center;
-  /* align-items: center; */
-  box-shadow: 3px 3px 15px -3px rgba(151, 147, 151, 0.61);
+  box-shadow: 5px 5px 25px -5px rgba(151, 147, 151, 0.61);
   /* background-color: blueviolet; */
 }
 
@@ -254,7 +258,7 @@ padding: 1rem;
 {
   margin-right: 50px;
   object-fit: contain;
-  width: 18rem;
+  width: 14rem;
   padding: 1.5rem;
   height: auto;
   border-radius: 2.5rem;

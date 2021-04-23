@@ -39,7 +39,7 @@ function Cart({cartItem,onAdd,onRemove}) {
                 cartItem.map((item) => (
                     <div key={item.id} >
                             <div className="cart__item">
-                        <div className="cart__image">
+                        <div className="cart__image my-4">
                             
                             <img src={item.imageurl}></img>
                             
